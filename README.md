@@ -15,7 +15,7 @@ This is an employee tracker that allows for the management of the departments, r
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [Questions](#questions)
-- [## FOR CLASS REQUIREMENTS MUST DO ALL OF THE FOLLOWING](##FOR-CLASS-REQUIREMENTS)
+- [##FOR CLASS REQUIREMENTS MUST DO ALL OF THE FOLLOWING](##FOR-CLASS-REQUIREMENTS)
 
 
 # VIDEO DEMONSTRATION
