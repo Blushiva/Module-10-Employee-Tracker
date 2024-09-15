@@ -62,10 +62,10 @@ As the image illustrates, your schema should contain the following three tables:
 * department
   ** id: SERIAL PRIMARY KEY
   ** name: VARCHAR(30) UNIQUE NOT NULL to hold department name
-     role
 
-id: SERIAL PRIMARY KEY
-title: VARCHAR(30) UNIQUE NOT NULL to hold role title
+* role
+     ** id: SERIAL PRIMARY KEY
+    ** title: VARCHAR(30) UNIQUE NOT NULL to hold role title
 
 salary: DECIMAL NOT NULL to hold role salary
 
