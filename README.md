@@ -5,6 +5,18 @@
 
 This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information.
 
+## Table of Contents
+- [Description](#description)
+- [User Story](##user-story)
+- [Acceptance Criteria](##acceptance-criteria)
+- [Table of Contents](##table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+
 # VIDEO DEMONSTRATION
 
 # INSTALLATION
