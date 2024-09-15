@@ -7,9 +7,10 @@ This is an employee tracker that allows for the management of the departments, r
 
 ## Table of Contents
 - [Description](#description)
-- [User Story](##user-story)
-- [Acceptance Criteria](##acceptance-criteria)
+- [User Story](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#user-story)
+- [Acceptance Criteria](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#acceptance-criteria)
 - [Table of Contents](##table-of-contents)
+- [Video Demonstration](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#video-demonstration)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
