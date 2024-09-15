@@ -5,12 +5,33 @@
 
 This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information.
 
-# FOR CLASS REQIREMENTS MUST DO ALL OF THE FOLLOWING
+# VIDEO DEMONSTRATION
 
-# USER STORY
+# INSTALLATION
+
+# USAGE
+
+# TESTING
+
+Testing is not currently set up.
+
+# CONTRIBUTING
+
+Brandi Rasmussen
+
+# QUESTIONS
+
+Contact me with any questions.
+
+
+
+
+## FOR CLASS REQIREMENTS MUST DO ALL OF THE FOLLOWING
+
+## USER STORY
  I WANT to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business.
 
- # ACCEPTANCE CRITERIA
+ ## ACCEPTANCE CRITERIA
 
  I should be GIVEN a command-line application that accepts user input WHEN I start the application.
 
@@ -30,7 +51,7 @@ WHEN I choose to add an employee...THEN I am prompted to enter the employee's fi
 
 WHEN I choose to update an employee role...THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
-# GETTING STARTED ON PROJECT
+## GETTING STARTED ON PROJECT
 
 You'll need to use the pg package Links to an external site. to connect to your PostgreSQL database and perform queries, and the Inquirer package Links to an external site. to interact with the user via the command line.
 
@@ -38,7 +59,7 @@ You'll need to use the pg package Links to an external site. to connect to your 
 
 As the image illustrates, your schema should contain the following three tables:
 
-#### department
+### department
 
 id: SERIAL PRIMARY KEY
 name: VARCHAR(30) UNIQUE NOT NULL to hold department name
@@ -64,7 +85,7 @@ manager_id: INTEGER to hold reference to another employee that is the manager of
 
 You might want to use a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a seeds.sql file to pre-populate your database, making the development of individual features much easier.
 
-# BONUS
+## BONUS
 
 #### Try to add some additional functionality to your application, such as the ability to do the following:
 
@@ -80,7 +101,7 @@ You might want to use a separate file that contains functions for performing spe
 
 # Grading Requirements
 
-## NOTE
+### NOTE
 
 If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
 A repository that has no code
@@ -89,18 +110,18 @@ A repository that includes only a README file but nothing else
 A repository that only includes starter code
 This Challenge is graded based on the following criteria:
 
-## Deliverables: 10%
+### Deliverables: 10%
 
 Your GitHub repository containing your application code.
 
-## Walkthrough Video: 27%
+### Walkthrough Video: 27%
 
 * A walkthrough video that demonstrates the functionality of the employee tracker must be submitted, and a link to the video should be included in your README file.
 * The walkthrough video must show all of the technical acceptance criteria being met.
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
 * The walkthrough video must demonstrate a functional menu with the options outlined in the acceptance criteria.
 
-## Technical Acceptance Criteria: 40%
+### Technical Acceptance Criteria: 40%
 
 Satisfies all of the preceding acceptance criteria plus the following:
 
@@ -108,7 +129,7 @@ Satisfies all of the preceding acceptance criteria plus the following:
 * Uses the pg package Links to an external site. to connect to a PostgreSQL database.
 * Follows the table schema outlined in the homework instructions.
 
-## Repository Quality: 13%
+### Repository Quality: 13%
 
 * Repository has a unique name.
 * Repository follows best practices for file structure and naming conventions.
@@ -116,11 +137,11 @@ Satisfies all of the preceding acceptance criteria plus the following:
 * Repository contains multiple descriptive commit messages.
 * Repository contains a high-quality README with description and a link to a walkthrough video.
 
-## Application Quality 10%
+### Application Quality 10%
 
 * The application user experience is intuitive and easy to navigate.
 
-## Bonus
+### Bonus
 
 Fulfilling any of the following can add up to 20 points to your grade. Note that the highest grade you can achieve is still 100:
 
@@ -130,7 +151,7 @@ Fulfilling any of the following can add up to 20 points to your grade. Note that
 * Application allows users to delete departments, roles, and employees (2 points for each).
 * Application allows users to view the total utilized budget of a department—in other words, the combined salaries of all employees in that department (8 points).
 
-## How to Submit the Challenge
+### How to Submit the Challenge
 
 You are required to submit BOTH of the following for review:
 
@@ -138,21 +159,6 @@ You are required to submit BOTH of the following for review:
 * The URL of the GitHub repository, with a unique name and a README describing the project.
 
 
-# INSTALLATION
-
-# USAGE
-
-# TESTING
-
-Testing is not currently set up.
-
-# CONTRIBUTING
-
-Brandi Rasmussen
-
-# QUESTIONS
-
-Contact me with any questions.
 
 
 
