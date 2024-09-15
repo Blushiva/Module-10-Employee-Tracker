@@ -20,6 +20,10 @@ This is an employee tracker that allows for the management of the departments, r
 
 
 # VIDEO DEMONSTRATION
+    *Please View Here for Video demonstartion
+    *This is placement unitl video is created...
+
+[Module 10 Demo](https: whatever-link this is. com)
 
 # INSTALLATION
 
