@@ -1,6 +1,11 @@
 # Module 10 Employee Tracker
 
+
+# DESCRIPTION 
+
 This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information.
+
+# FOR CLASS REQIREMENTS MUST DO ALL OF THE FOLLOWING
 
 # USER STORY
  I WANT to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business.
@@ -25,7 +30,7 @@ WHEN I choose to add an employee...THEN I am prompted to enter the employee's fi
 
 WHEN I choose to update an employee role...THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
-# Getting Started
+# GETTING STARTED ON PROJECT
 
 You'll need to use the pg package Links to an external site. to connect to your PostgreSQL database and perform queries, and the Inquirer package Links to an external site. to interact with the user via the command line.
 
@@ -131,3 +136,23 @@ You are required to submit BOTH of the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
 * The URL of the GitHub repository, with a unique name and a README describing the project.
+
+
+# INSTALLATION
+
+# USAGE
+
+# TESTING
+
+Testing is not currently set up.
+
+# CONTRIBUTING
+
+Brandi Rasmussen
+
+# QUESTIONS
+
+Contact me with any questions.
+
+
+
