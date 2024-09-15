@@ -15,6 +15,7 @@ This is an employee tracker that allows for the management of the departments, r
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [Questions](#questions)
+- [For Class Requirements](##FOR-CLASS-REQUIREMENTS-MUST-DO-ALL-OF-THE-FOLLOWING)
 
 
 # VIDEO DEMONSTRATION
@@ -43,7 +44,7 @@ Contact me with any questions.
 #
 #
 
-## FOR CLASS REQIREMENTS MUST DO ALL OF THE FOLLOWING
+## FOR CLASS REQUIREMENTS MUST DO ALL OF THE FOLLOWING
 
 ## USER STORY
  I WANT to be able to view and manage the departments, roles, and employees in my company SO THAT I can organize and plan my business.
