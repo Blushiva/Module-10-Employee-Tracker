@@ -31,7 +31,7 @@ You'll need to use the pg package Links to an external site. to connect to your 
 
 As the image illustrates, your schema should contain the following three tables:
 
-####department
+#### department
 
 id: SERIAL PRIMARY KEY
 name: VARCHAR(30) UNIQUE NOT NULL to hold department name
@@ -56,3 +56,17 @@ manager_id: INTEGER to hold reference to another employee that is the manager of
 
 
 You might want to use a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a seeds.sql file to pre-populate your database, making the development of individual features much easier.
+
+# BONUS
+
+#### Try to add some additional functionality to your application, such as the ability to do the following:
+
+* Update employee managers.
+
+* View employees by manager.
+
+* View employees by department.
+
+* Delete departments, roles, and employees.
+
+* View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
