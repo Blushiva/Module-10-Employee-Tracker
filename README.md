@@ -59,11 +59,10 @@ You'll need to use the pg package Links to an external site. to connect to your 
 
 As the image illustrates, your schema should contain the following three tables:
 
-### department
-
-id: SERIAL PRIMARY KEY
-name: VARCHAR(30) UNIQUE NOT NULL to hold department name
-role
+* department
+  ** id: SERIAL PRIMARY KEY
+  ** name: VARCHAR(30) UNIQUE NOT NULL to hold department name
+     role
 
 id: SERIAL PRIMARY KEY
 title: VARCHAR(30) UNIQUE NOT NULL to hold role title
