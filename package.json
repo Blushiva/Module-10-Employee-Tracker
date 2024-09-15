@@ -8,5 +8,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^10.2.2",
+    "uuid": "^10.0.0"
+  }
 }
