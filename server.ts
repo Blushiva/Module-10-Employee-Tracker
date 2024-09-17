@@ -235,3 +235,131 @@ const addEmployee = () => {
         });
     });
 };
+
+// Update An Employee Role
+const updateEmployeeRole = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, employees) => {
+        if (error) throw error;
+        const query = `SELECT * FROM role`;
+        connection.query(query, (error, roles) => {
+            if (error) throw error;
+            inquirer.prompt([
+                {
+                    name: 'employee_id',
+                    type: 'list',
+                    message: 'Select the employee you want to update the role:',
+                    choices: employees.map(employee => {
+                        return {
+                            name: employee.first_name + ' ' + employee.last_name,
+                            value: employee.id
+                        }
+                    })
+                },
+                {
+                    name: 'role_id',
+                    type: 'list',
+                    message: 'Select the new role of the employee:',
+                    choices: roles.map(role => {
+                        return {
+                            name: role.title,
+                            value: role.id
+                        }
+                    })
+                }
+            ])
+            .then ((response) => {
+                const query = `UPDATE employee SET role_id = ? WHERE id = ?`;
+                connection.query(query, [response.role_id, response.employee_id], (error) => {
+                    if (error) throw error;
+                    console.log('The employee role has been updated successfully!');
+                    promptUser();
+                });
+            });
+        });
+    });
+};
+
+// Update Employee Manager
+const updateEmployeeManager = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, employees) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'employee_id',
+                type: 'list',
+                message: 'Select the employee that you want to update their manager:',
+                choices: employees.map(employee => {
+                    return {
+                        name: employee.first_name + ' ' + employee.last_name,
+                        value: employee.id
+                    }
+                })
+            },
+            {
+                name: 'manager_id',
+                type: 'list',
+                message: 'Select the new manager of the employee:',
+                choices: employees.map(employee => {
+                    return {
+                        name: employee.first_name + ' ' + employee.last_name,
+                        value: employee.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `UPDATE employee SET manager_id = ? WHERE id = ?`;
+            connection.query(query, [response.manager_id, response.employee_id], (error) => {
+                if (error) throw error;
+                console.log('The employee manager has been updated successfully!');
+                promptUser();
+            });
+        });
+    });
+};
+
+// Update Employee Department
+const updateEmployeeDepartment = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, employees) => {
+        if (error) throw error;
+        const query = `SELECT * FROM department`;
+        connection.query(query, (error, departments) => {
+            if (error) throw error;
+            inquirer.prompt([
+                {
+                    name: 'employee_id',
+                    type: 'list',
+                    message: 'Select the employee that you want to update their department:',
+                    choices: employees.map(employee => {
+                        return {
+                            name: employee.first_name + ' ' + employee.last_name,
+                            value: employee.id
+                        }
+                    })
+                },
+                {
+                    name: 'department_id',
+                    type: 'list',
+                    message: 'Select the new department of the employee:',
+                    choices: departments.map(department => {
+                        return {
+                            name: department.name,
+                            value: department.id
+                        }
+                    })
+                }
+            ])
+            .then ((response) => {
+                const query = `UPDATE employee SET department_id = ? WHERE id = ?`;
+                connection.query(query, [response.department_id, response.employee_id], (error) => {
+                    if (error) throw error;
+                    console.log('The employee department has been updated successfully!');
+                    promptUser();
+                });
+            });
+        });
+    });
+}
