@@ -16,5 +16,14 @@ CREATE TABLE role (
     salary DECIMAL(10, 2) NOT NULL,
     department_id INT,
     PRIMARY KEY (id), NOT NULL,
+);
 
-)
+/*must figure out how to code if no manager*/
+CREATE TABLE employee (
+    id SERIAL PRIMARY KEY NOT NULL,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    role_id INT,
+    manager_id INT,
+    PRIMARY KEY (id) NOT NULL,
+);
