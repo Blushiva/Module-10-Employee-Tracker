@@ -48,6 +48,7 @@ How to connect to PostGres SQL
 [link](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgresql)
 
 Prisma
+
 Getting Started
 [link](https://www.prisma.io/docs/getting-started)
 Overview of Databases
