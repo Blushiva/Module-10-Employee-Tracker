@@ -1,5 +1,5 @@
 
-// Code taken from public code for the pretty shiny look
+// Code taken from public code for the pretty shiny look will add more if I dont get sick of this project.
 const connection = require('./config/connection');
 const inquirer = require('inquirer');
 const cTable = require('console.table');
@@ -103,3 +103,135 @@ const promptUser = () => {
         }
     }       
     )}  
+
+// View All Departments
+const viewDepartments = () => {
+    const query = `SELECT * FROM department`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        console.table(response);
+        promptUser();
+    });
+};
+
+// View All Roles
+const viewRoles = () => {
+    const query = `SELECT * FROM role`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        console.table(response);
+        promptUser();
+    });
+};
+
+// View All Employees
+const viewEmployees = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        console.table(response);
+        promptUser();
+    });
+};
+
+// Add A Department
+const addDepartment = () => {
+    inquirer.prompt([
+        {
+            name: 'name',
+            type: 'input',
+            message: 'Enter the name of the department:',
+            validate: validate.validateString
+        }
+    ])
+    .then ((response) => {
+        const query = `INSERT INTO department SET ?`;
+        connection.query(query, response, (error) => {
+            if (error) throw error;
+            console.log('The department has been added successfully!');
+            promptUser();
+        });
+    });
+};
+
+// Add A Role
+const addRole = () => {
+    const query = `SELECT * FROM department`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'title',
+                type: 'input',
+                message: 'Enter the title of the role:',
+                validate: validate.validateString
+            },
+            {
+                name: 'salary',
+                type: 'input',
+                message: 'Enter the salary of the role:',
+                validate: validate.validateSalary
+            },
+            {
+                name: 'department_id',
+                type: 'list',
+                message: 'Select the department of the role:',
+                choices: response.map(department => {
+                    return {
+                        name: department.name,
+                        value: department.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `INSERT INTO role SET ?`;
+            connection.query(query, response, (error) => {
+                if (error) throw error;
+                console.log('The role has been added successfully!');
+                promptUser();
+            });
+        });
+    });
+};
+
+// Add An Employee
+const addEmployee = () => {
+    const query = `SELECT * FROM role`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'first_name',
+                type: 'input',
+                message: 'Enter the first name of the employee:',
+                validate: validate.validateString
+            },
+            {
+                name: 'last_name',
+                type: 'input',
+                message: 'Enter the last name of the employee:',
+                validate: validate.validateString
+            },
+            {
+                name: 'role_id',
+                type: 'list',
+                message: 'Select the role of the employee:',
+                choices: response.map(role => {
+                    return {
+                        name: role.title,
+                        value: role.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `INSERT INTO employee SET ?`;
+            connection.query(query, response, (error) => {
+                if (error) throw error;
+                console.log('The employee has been added successfully!');
+                promptUser();
+            });
+        });
+    });
+};
