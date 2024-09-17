@@ -16,7 +16,7 @@ This is an employee tracker that allows for the management of the departments, r
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [Questions](#questions)
-- [FOR CLASS REQUIREMENTS](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#for-class-requirements-must-do-all-of-the-following)
+- [CLASS REQUIREMENTS](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#for-class-requirements-must-do-all-of-the-following)
 
 
 # VIDEO DEMONSTRATION
