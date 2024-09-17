@@ -45,16 +45,14 @@ How to build CRUD
 
 [CRUD LINK](https://www.freecodecamp.org/news/how-to-build-a-command-line-application-with-nodejs/)
 
-How to connect to PostGres SQL
+Connecting to PostGres SQL
 
 [How to Connect](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgresql)
 
 Prisma
 
-Getting Started
 [Getting Started](https://www.prisma.io/docs/getting-started)
 
-Overview of Databases
 [Overview of Databases](https://www.prisma.io/docs/orm/overview/databases/postgresql)
 
 # QUESTIONS
