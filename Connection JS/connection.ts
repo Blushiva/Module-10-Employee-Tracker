@@ -20,10 +20,4 @@ main()
   });
 
 // added a message to know if connected to the database
-connection.connect((err) => {
-    if (err) {
-        console.log('Error connecting to the database');
-        return;
-    }
-    console.log('Connected to the database');
-});
+console.log('Connected to the database');
