@@ -1,4 +1,4 @@
-/* Must ADD the Values here I dont understand where they come from is it just an array*/
+/* Must ADD the Values here I dont understand where they come from is it just an array?*/
 INSERT INTO department(department_name)
 VALUES();
 
