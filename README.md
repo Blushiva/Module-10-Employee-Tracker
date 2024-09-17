@@ -42,9 +42,11 @@ Brandi Rasmussen
 References:
 
 How to build CRUD
+
 [link](https://www.freecodecamp.org/news/how-to-build-a-command-line-application-with-nodejs/)
 
 How to connect to PostGres SQL
+
 [link](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgresql)
 
 Prisma
