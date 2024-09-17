@@ -50,6 +50,8 @@ How to connect to PostGres SQL
 Prisma
 [link](https://www.prisma.io/docs/getting-started)
 
+[link](https://www.prisma.io/docs/orm/overview/databases/postgresql)
+
 # QUESTIONS
 
 Contact me with any questions.
