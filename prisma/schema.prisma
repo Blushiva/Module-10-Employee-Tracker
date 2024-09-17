@@ -14,7 +14,8 @@
 
 
 // Notice that this code requires the DATABASE_URL environment variable to be set to my PostgreSQL connection string.
-// Next question is...how to get it? 
+
+// Next question is...where do I get the URL? 
 
 generator client {
   provider = "prisma-client-js"
