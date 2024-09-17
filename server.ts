@@ -363,3 +363,179 @@ const updateEmployeeDepartment = () => {
         });
     });
 }
+
+// View Employees By Manager
+const viewEmployeesByManager = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, employees) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'manager_id',
+                type: 'list',
+                message: 'Select the manager to view their employees:',
+                choices: employees.map(employee => {
+                    return {
+                        name: employee.first_name + ' ' + employee.last_name,
+                        value: employee.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `SELECT * FROM employee WHERE manager_id = ?`;
+            connection.query(query, response.manager_id, (error, response) => {
+                if (error) throw error;
+                console.table(response);
+                promptUser();
+            });
+        });
+    });
+};
+
+// View Employees By Department
+const viewEmployeesByDepartment = () => {
+    const query = `SELECT * FROM department`;
+    connection.query(query, (error, departments) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'department_id',
+                type: 'list',
+                message: 'Select the department to view their employees:',
+                choices: departments.map(department => {
+                    return {
+                        name: department.name,
+                        value: department.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `SELECT * FROM employee WHERE department_id = ?`;
+            connection.query(query, response.department_id, (error, response) => {
+                if (error) throw error;
+                console.table(response);
+                promptUser();
+            });
+        });
+    });
+};
+
+// Delete Department
+const deleteDepartment = () => {
+    const query = `SELECT * FROM department`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'department_id',
+                type: 'list',
+                message: 'Select the department to delete:',
+                choices: response.map(department => {
+                    return {
+                        name: department.name,
+                        value: department.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `DELETE FROM department WHERE id = ?`;
+            connection.query(query, response.department_id, (error) => {
+                if (error) throw error;
+                console.log('The department has been deleted successfully!');
+                promptUser();
+            });
+        });
+    });
+};
+
+// Delete Role
+const deleteRole = () => {
+    const query = `SELECT * FROM role`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'role_id',
+                type: 'list',
+                message: 'Select the role to delete:',
+                choices: response.map(role => {
+                    return {
+                        name: role.title,
+                        value: role.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `DELETE FROM role WHERE id = ?`;
+            connection.query(query, response.role_id, (error) => {
+                if (error) throw error;
+                console.log('The role has been deleted successfully!');
+                promptUser();
+            });
+        });
+    });
+};
+
+// Delete Employee
+const deleteEmployee = () => {
+    const query = `SELECT * FROM employee`;
+    connection.query(query, (error, response) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'employee_id',
+                type: 'list',
+                message: 'Select the employee to delete:',
+                choices: response.map(employee => {
+                    return {
+                        name: employee.first_name + ' ' + employee.last_name,
+                        value: employee.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `DELETE FROM employee WHERE id = ?`;
+            connection.query(query, response.employee_id, (error) => {
+                if (error) throw error;
+                console.log('The employee has been deleted successfully!');
+                promptUser();
+            });
+        });
+    });
+};
+
+// View Total Utilized Budget Of A Department
+const viewTotalUtilizedBudgetOfADepartment = () => {
+    const query = `SELECT * FROM department`;
+    connection.query(query, (error, departments) => {
+        if (error) throw error;
+        inquirer.prompt([
+            {
+                name: 'department_id',
+                type: 'list',
+                message: 'Select the department to view the total utilized budget:',
+                choices: departments.map(department => {
+                    return {
+                        name: department.name,
+                        value: department.id
+                    }
+                })
+            }
+        ])
+        .then ((response) => {
+            const query = `SELECT SUM(salary) AS total_utilized_budget FROM employee 
+            INNER JOIN role ON employee.role_id = role.id 
+            WHERE role.department_id = ?`;
+            connection.query(query, response.department_id, (error, response) => {
+                if (error) throw error;
+                console.table(response);
+                promptUser();
+            });
+        });
+    });
+};
