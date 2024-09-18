@@ -55,6 +55,8 @@ Prisma
 
 [Overview of Databases](https://www.prisma.io/docs/orm/overview/databases/postgresql)
 
+[Connecting the Database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql)
+
 # QUESTIONS
 
 Contact me with any questions.
