@@ -539,3 +539,9 @@ const viewTotalUtilizedBudgetOfADepartment = () => {
         });
     });
 };
+
+// Exit
+const exit = () => {
+    connection.end();
+    console.log('Goodbye!');
+};
