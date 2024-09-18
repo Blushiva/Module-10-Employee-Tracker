@@ -1,7 +1,7 @@
 /* Must ADD the Values here I dont understand where they come from is it just an array?*/
 /*Must include the values for the department, role, and employee tables.*/
 
-INSERT INTO department(department_id, department_name, )
+INSERT INTO department(department_id, department_name, total_utilized_budget)
 VALUES([]);
 
 INSERT INTO role(role_id, title, salary, department_id)

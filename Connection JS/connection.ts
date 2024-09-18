@@ -1,4 +1,5 @@
-// Connects the user to the database must insert the database URL WHERE DO I GET IT FROM?
+// Connects the user to the database must insert the database URl?
+// Found URL and it has been inserted
 
 // connection.ts
 import { PrismaClient } from '@prisma/client';
