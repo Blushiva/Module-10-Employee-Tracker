@@ -534,6 +534,7 @@ const viewTotalUtilizedBudgetOfADepartment = () => {
             connection.query(query, response.department_id, (error, response) => {
                 if (error) throw error;
                 console.table(response);
+                console.log('The departments total utilized budget is:' + response[0].total_utilized_budget);
                 promptUser();
             });
         });
