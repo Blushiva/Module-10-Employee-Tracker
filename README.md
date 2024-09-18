@@ -57,6 +57,8 @@ Prisma
 
 [Connecting the Database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql)
 
+[Control Functions](https://www.postgresql.org/docs/10/libpq-connect.html#id-1.7.3.8.3.6)
+
 # QUESTIONS
 
 Contact me with any questions.
