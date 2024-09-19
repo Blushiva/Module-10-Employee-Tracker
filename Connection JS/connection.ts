@@ -1,5 +1,7 @@
 // Connects the user to the database must insert the database URl?
 // Found URL and it has been inserted
+// Must build Typescript for Javascript
+// 
 
 // connection.ts
 import { PrismaClient } from '@prisma/client';
