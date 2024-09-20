@@ -42,6 +42,7 @@ Brandi Rasmussen
 References:
 
 [Typescript Compiling](https://code.visualstudio.com/docs/typescript/typescript-compiling)
+
 [Installation Errors](https://stackoverflow.com/questions/51116803/cant-install-typescript-on-macos-terminal-error)
 
 How to build CRUD
