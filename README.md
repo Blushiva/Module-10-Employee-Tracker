@@ -73,7 +73,7 @@ connection (Connects files to Prisma)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing Resources](#contributing)
+- [Contributing Resources](https://github.com/Blushiva/Module-10-Employee-Tracker?tab=readme-ov-file#contributing-resources)
 - [Questions](#questions)
 - [CLASS REQUIREMENTS](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#for-class-requirements-must-do-all-of-the-following)
 
