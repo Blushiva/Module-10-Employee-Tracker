@@ -115,7 +115,7 @@ SQL
 
 [SQL Insert Into](https://www.programiz.com/sql/insert-into)
 
-[Inset Into SQL](https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/)
+[Insert Into SQL](https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/)
 
 
 
