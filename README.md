@@ -5,15 +5,22 @@
 
 This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information. 
 
-I would like to address the elephant in the room.  HOW DO I EVEN START?
-The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed
+This module also helped address the thing that I couldn't put into words until now. HOW TO BUILD A MODULE FROM SCRATCH AND THE PROCESS BEHIND IT.
 
+# PROCESS
+
+I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need. I am also frugal and demand that my money is spent well and that I get the most bang for my buck. That means I want the most out of the education that I paid for.
+
+I would like to address the elephant in the room.  HOW DO I EVEN START?
+The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed.  I am so lost...
+
+This was echoed with my fellow cohorts. So I felt compelled to explain the HOW TO DO THE PROCESS.  This was hinted at but NEVER covered in class. THIS IS ESSENTIAL FOR A JUNIOR DEVELOPER. These are the basic building blocks needed but just assumed that we know even when we don't come from a computing background.  I feel like this point is also missing in the buildup to the modules.  I am not the only one who feels this way in Bootcamp.
 
 I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I started by googling Employee tracker.  See [Contributing Resources](#contributing)
 
 I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained in this module. 
 
-I used the code as outlines as to what to do next.  I questioned my AI when it would try and auto fill.  I went back and looked at the other examples to make sure I was on the right track. When I startted seeing similar things reoccuring that is when I had my Eurika moment and made it my own.  
+I used the code as outlines as to what to do next.  I questioned my AI when it would try and auto fill.  I went back and looked at the other examples to make sure I was on the right track. When I started seeing similar things reoccuring that is when I had my Eurika moment and made it my own.  
 
 I then went step by step and googled how to do each of the folders.  I also decided to add PRISMA becuase I wanted to see if I could.
 
@@ -37,6 +44,7 @@ connection (Connects files to Prisma)
 
 ## Table of Contents
 - [Description](#description)
+- [Process](#Process)
 - [User Story](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#user-story)
 - [Acceptance Criteria](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#acceptance-criteria)
 - [Table of Contents](##table-of-contents)
