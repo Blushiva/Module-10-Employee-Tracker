@@ -13,13 +13,16 @@ I come from a sales/education/music/anthropology background.  I went to the Univ
 
 That means... I want the most out of the education that was paid for.
 
+That also means... I am part of a community and need to keep working on improving it and making it better for the learners who follow. Just because I struggled doesn't mean others have to.
+
 I would like to address the elephant in the room.  HOW DO I EVEN START?
 
-The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed what modules were required.  How do I even install the packages? I am having so much information thrown at me.  Even if you told me and we covered it in class I can't put it together yet. I am so lost...
+The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start... I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed what modules were required.  How do I even install the packages? I am having so much information thrown at me.  Even if you told me and we covered it in class I can't put it together yet. I am so lost...
+This ideas were echoed with my fellow cohorts.
 
 THIS IS THE WHY I FELT THE NEED TO ADD THE PROCESS.
 
-This was echoed with my fellow cohorts. So I felt compelled to explain the HOW TO BUILD AN APP FROM SCRATCH HERE.  This was hinted at but NEVER covered in class. THIS IS ESSENTIAL FOR A JUNIOR DEVELOPER. These are the basic building blocks needed but just assumed that we know even when we don't come from a computing background.  I feel like this point is also missing in the buildup to the modules.  I am not the only one who feels this way in my Bootcamp class.
+ So I felt compelled to explain the HOW TO BUILD AN APP FROM SCRATCH HERE.  This was hinted at but NEVER covered in class. THIS IS ESSENTIAL FOR A JUNIOR DEVELOPER. These are the basic building blocks needed but just assumed that we know even when we don't come from a computing background.  I feel like this point is also missing in the buildup to the modules.  I am not the only one who feels this way in my Bootcamp class.
 
 As an artist... before I start a project, I research what others have done.  I look up examples and I take away what I loved and what I thought could be improved and then I add to it and make it my own.  As a bootcamp student, I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I combined my artist project process and started by googling Employee tracker.  See [Contributing Resources](#contributing)
 
@@ -127,6 +130,13 @@ Prisma
 [Connecting the Database](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases/connect-your-database-typescript-postgresql)
 
 [Control Functions](https://www.postgresql.org/docs/10/libpq-connect.html#id-1.7.3.8.3.6)
+
+BOOKS:
+
+Javascript for Kids by Nick Morgan
+[Java Sript for Kids](https://pepa.holla.cz/wp-content/uploads/2015/11/JavaScript-for-Kids.pdf)
+
+
 
 # QUESTIONS
 
