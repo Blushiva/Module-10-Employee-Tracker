@@ -3,7 +3,37 @@
 
 # DESCRIPTION 
 
-This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information.
+This is an employee tracker that allows for the management of the departments, roles and employees.  It was an assignment for bootcamp class. It requests that we use a CMS to easily view and interact with the information. 
+
+I would like to address the elephant in the room.  HOW DO I EVEN START?
+The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed
+
+
+I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I started by googling Employee tracker.  See [Contributing Resources](#contributing)
+
+I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained in this module. 
+
+I used the code as outlines as to what to do next.  I questioned my AI when it would try and auto fill.  I went back and looked at the other examples to make sure I was on the right track. When I startted seeing similar things reoccuring that is when I had my Eurika moment and made it my own.  
+
+I then went step by step and googled how to do each of the folders.  I also decided to add PRISMA becuase I wanted to see if I could.
+
+I wrote the code long hand because I still dont understand 1/4 of it unless I am in it and then when I walk away from it my brain forgets so I need to WRITE IT OUT.
+
+Here is the Following Outline of what I did.
+
+FILES NEEDED
+
+Tsconfig.json file
+server.ts
+Installed package.json
+License
+gitignore
+.env for Prisma
+Scheema file(this runs the tables...hinted at in module)
+seeds (also hinted at in module...seeds the database)
+connection (Connects files to Prisma)
+
+
 
 ## Table of Contents
 - [Description](#description)
@@ -14,7 +44,7 @@ This is an employee tracker that allows for the management of the departments, r
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Contributing](#contributing)
+- [Contributing Resources](#contributing)
 - [Questions](#questions)
 - [CLASS REQUIREMENTS](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#for-class-requirements-must-do-all-of-the-following)
 
@@ -35,11 +65,20 @@ This is an employee tracker that allows for the management of the departments, r
 
 Testing is not currently set up.
 
-# CONTRIBUTING
+# CONTRIBUTING RESOURCES
 
 Brandi Rasmussen
 
 References:
+
+I looked at a few other employee trackers online and took ideas from them...Please see below. 
+
+[Employee Tracker](https://github.com/jpd61/employee-tracker/blob/master/README.md)
+
+[Employee Tracker](https://www.youtube.com/watch?v=5cAc6FZySVw)
+
+[Employee Tracker](https://www.youtube.com/watch?v=168X6LEpNwE)
+
 
 SQL
 
