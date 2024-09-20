@@ -41,12 +41,18 @@ Here is the Following Outline of what I did.
 ## REQUIRED MODULES/Packages/Files
 
 Tsconfig.json file
-server.ts
+
+
 Installed package.json
+
 License
+
 gitignore
+
 .env for Prisma
+
 Scheema file(this runs the tables...hinted at in module)
+
 seeds (also hinted at in module...seeds the database)
 connection (Connects files to Prisma)
 
