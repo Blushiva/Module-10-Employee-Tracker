@@ -9,11 +9,14 @@ This module also helped address the thing that I couldn't put into words until n
 
 # PROCESS
 
-I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double degree to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need even if they don't understand what they need. I am also frugal and demand that my money is spent well and that I get the most bang for my buck. 
+About Me:
+I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double degree to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need even if they don't understand what they need. I taught in a Non-profit.  I worked with learners from all backgrounds. Community building is my lifes work.  I have worked with immigrants, the homeless and the wealthy on social issues.  I apply all these things to the projects that I touch.  I am also frugal and demand that my money is spent well and that I get the most bang for my buck. 
 
 That means... I want the most out of the education that was paid for.
 
-That also means... I am part of a community and need to keep working on improving it and making it better for the learners who follow. Just because I struggled doesn't mean others have to.
+That also means... I am part of a community and need to keep working on improving it and making it better for the learners who follow. Just because I struggled doesn't mean future students have to.
+
+How to Start: 
 
 I would like to address the elephant in the room.  HOW DO I EVEN START?
 
