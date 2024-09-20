@@ -9,26 +9,33 @@ This module also helped address the thing that I couldn't put into words until n
 
 # PROCESS
 
-I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need. I am also frugal and demand that my money is spent well and that I get the most bang for my buck. That means I want the most out of the education that I paid for.
+I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double degree to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need even if they don't understand what they need. I am also frugal and demand that my money is spent well and that I get the most bang for my buck. 
+
+That means... I want the most out of the education that was paid for.
 
 I would like to address the elephant in the room.  HOW DO I EVEN START?
-The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed.  I am so lost...
 
-This was echoed with my fellow cohorts. So I felt compelled to explain the HOW TO DO THE PROCESS.  This was hinted at but NEVER covered in class. THIS IS ESSENTIAL FOR A JUNIOR DEVELOPER. These are the basic building blocks needed but just assumed that we know even when we don't come from a computing background.  I feel like this point is also missing in the buildup to the modules.  I am not the only one who feels this way in Bootcamp.
+The problem with these assignments and the modules they give us...is that as a user, I am a bootcamp student who doesn't have the basic framework in place to build a module. I don't know what I need. I don't know where to start...I know that I covered aspects of this module in class but I have no clue what the framework looks like.  The Getting started on project, which I have also inclded here did not give me any direction on which folders I needed what modules were required.  How do I even install the packages? I am having so much information thrown at me.  Even if you told me and we covered it in class I can't put it together yet. I am so lost...
 
-I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I started by googling Employee tracker.  See [Contributing Resources](#contributing)
+THIS IS THE WHY I FELT THE NEED TO ADD THE PROCESS.
 
-I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained in this module. 
+This was echoed with my fellow cohorts. So I felt compelled to explain the HOW TO BUILD AN APP FROM SCRATCH HERE.  This was hinted at but NEVER covered in class. THIS IS ESSENTIAL FOR A JUNIOR DEVELOPER. These are the basic building blocks needed but just assumed that we know even when we don't come from a computing background.  I feel like this point is also missing in the buildup to the modules.  I am not the only one who feels this way in my Bootcamp class.
+
+As an artist... before I start a project, I research what others have done.  I look up examples and I take away what I loved and what I thought could be improved and then I add to it and make it my own.  As a bootcamp student, I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I combined my artist project process and started by googling Employee tracker.  See [Contributing Resources](#contributing)
+
+I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained within this module. 
 
 I used the code as outlines as to what to do next.  I questioned my AI when it would try and auto fill.  I went back and looked at the other examples to make sure I was on the right track. When I started seeing similar things reoccuring that is when I had my Eurika moment and made it my own.  
 
-I then went step by step and googled how to do each of the folders.  I also decided to add PRISMA becuase I wanted to see if I could.
+I then went step by step and googled how to do each of the folders.  I also decided to add PRISMA because I wanted to see if I could.
 
-I wrote the code long hand because I still dont understand 1/4 of it unless I am in it and then when I walk away from it my brain forgets so I need to WRITE IT OUT.
+I then hit a wall as I was writing the code.  So I did what any research scientist would do... I left notes at the areas I did not understand.  I then went in and discussed those areas with my teacher and the TA.  They gave me the direction I needed to go and I went in and left myself notes in the areas of the project on what to do next.  
+
+I wrote out the code long hand because I still dont understand 1/4 of it unless I am in it and then when I walk away from it my brain forgets so I need to WRITE IT OUT. I also left myself notes on what I needed to work on and what I don't understand and this is why Markdown as part of the process is so important.
 
 Here is the Following Outline of what I did.
 
-FILES NEEDED
+# REQUIRED MODULES/packages/Files
 
 Tsconfig.json file
 server.ts
@@ -43,6 +50,7 @@ connection (Connects files to Prisma)
 
 
 ## Table of Contents
+- [REQUIRED MODULES](#)
 - [Description](#description)
 - [Process](#Process)
 - [User Story](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#user-story)
