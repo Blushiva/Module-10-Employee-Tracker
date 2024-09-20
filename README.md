@@ -41,6 +41,16 @@ Brandi Rasmussen
 
 References:
 
+SQL
+
+[SQL Insert](https://www.w3schools.com/sql/sql_insert.asp)
+
+[SQL Insert Into](https://www.programiz.com/sql/insert-into)
+
+
+
+Typescript
+
 [Typescript Compiling](https://code.visualstudio.com/docs/typescript/typescript-compiling)
 
 [Installation Errors](https://stackoverflow.com/questions/51116803/cant-install-typescript-on-macos-terminal-error)

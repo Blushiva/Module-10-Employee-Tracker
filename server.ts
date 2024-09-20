@@ -22,8 +22,10 @@ connection.connect((error) => {
 
 // Prompt user with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 // * Update employee managers. * View employees by manager. * View employees by department. * Delete departments, roles, and employees.
-//* View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
+// * View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
 // The user can also exit the application.
+
+// In the future use MAP to make this more dynamic and less code. Wrote longhand to understand the process.
 
 // The user will be prompted with the following options:
 const promptUser = () => {
