@@ -10,6 +10,7 @@ This module also helped address the thing that I couldn't put into words until n
 # PROCESS
 
 About Me:
+
 I come from a sales/education/music/anthropology background.  I went to the University of MN and have most of my BA and masters degree in Anthropology done. (I was working a double degree to save money) I was taught research by some of the best in the world at the time. I know how to interview people to get the job done and figure out what they need even if they don't understand what they need. I taught in a Non-profit.  I worked with learners from all backgrounds. Community building is my lifes work.  I have worked with immigrants, the homeless and the wealthy on social issues.  I apply all these things to the projects that I touch.  I am also frugal and demand that my money is spent well and that I get the most bang for my buck. 
 
 That means... I want the most out of the education that was paid for.
