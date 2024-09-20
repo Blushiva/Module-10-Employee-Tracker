@@ -23,19 +23,19 @@ This was echoed with my fellow cohorts. So I felt compelled to explain the HOW T
 
 As an artist... before I start a project, I research what others have done.  I look up examples and I take away what I loved and what I thought could be improved and then I add to it and make it my own.  As a bootcamp student, I have heard the words "Look it up", but now it's just a constant drone in the back of my head because it's been said so many times. What do I even look up?  So I combined my artist project process and started by googling Employee tracker.  See [Contributing Resources](#contributing)
 
-I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained within this module. 
+I read other peoples code, I looked at their blueprints to understand what I needed for my own project.  Most importantly I looked at their folders for the idea on HOW to structure the overall project. This is where I learned that I needed certain folders.  The important take away is that I used at least 3-5 sources for each topic within the topic that is contained within this module and I cited them. 
 
 I used the code as outlines as to what to do next.  I questioned my AI when it would try and auto fill.  I went back and looked at the other examples to make sure I was on the right track. When I started seeing similar things reoccuring that is when I had my Eurika moment and made it my own.  
 
 I then went step by step and googled how to do each of the folders.  I also decided to add PRISMA because I wanted to see if I could.
 
-I then hit a wall as I was writing the code.  So I did what any research scientist would do... I left notes at the areas I did not understand.  I then went in and discussed those areas with my teacher and the TA.  They gave me the direction I needed to go and I went in and left myself notes in the areas of the project on what to do next.  
+I then hit a wall as I was writing the code.  So I did what any research scientist would do... I left notes at the areas I did not understand.  I then went in and discussed those areas with my teacher and the TA.  They gave me the direction I needed to go.   and I left myself notes in the areas of the project on what to do next.  I then went back in and googled it. I repeated this process until I had a working app.
 
 I wrote out the code long hand because I still dont understand 1/4 of it unless I am in it and then when I walk away from it my brain forgets so I need to WRITE IT OUT. I also left myself notes on what I needed to work on and what I don't understand and this is why Markdown as part of the process is so important.
 
 Here is the Following Outline of what I did.
 
-# REQUIRED MODULES/packages/Files
+## REQUIRED MODULES/Packages/Files
 
 Tsconfig.json file
 server.ts
@@ -50,7 +50,7 @@ connection (Connects files to Prisma)
 
 
 ## Table of Contents
-- [REQUIRED MODULES](#)
+
 - [Description](#description)
 - [Process](#Process)
 - [User Story](https://github.com/Blushiva/Module-10-Employee-Tracker/blob/main/README.md#user-story)
